@@ -8,3 +8,6 @@ def myProfile(request):
 
 def myEducation(request):
     return render(request, 'education.html')
+
+def myview(request):
+    return HttpResponse("this is my view")
